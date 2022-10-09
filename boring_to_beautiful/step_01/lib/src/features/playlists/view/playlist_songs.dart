@@ -40,14 +40,17 @@ class PlaylistSongs extends StatelessWidget {
         index: index,
         cells: [
           DataCell(
-            // Add HoverableSongPlayButton
-            Center(
+              // Add HoverableSongPlayButton
+              HoverableSongPlayButton(
+            hoverMode: HoverMode.overlay,
+            song: playlist.songs[index],
+            child: Center(
               child: Text(
                 (index + 1).toString(),
                 textAlign: TextAlign.center,
               ),
             ),
-          ),
+          )),
           DataCell(
             Row(children: [
               Padding(
