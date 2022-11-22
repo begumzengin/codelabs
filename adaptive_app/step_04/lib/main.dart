@@ -11,7 +11,7 @@ import 'src/playlists.dart';
 const flutterDevAccountId = 'UCwXdFgeE9KYzlDdR7TG9cMw';
 
 // TODO: Replace with your YouTube API Key
-const youTubeApiKey = 'AIzaNotAnApiKey';
+const youTubeApiKey = 'AIzaSyB_ciEEuGhZZN8KCWPk8c3-eJaEJZR_9to';
 
 void main() {
   if (youTubeApiKey == 'AIzaNotAnApiKey') {
